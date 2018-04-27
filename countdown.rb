@@ -7,3 +7,8 @@ def countdown(time)
   end
   "HAPPY NEW YEAR!"
 end
+
+def countdown_with_sleep(time)
+  sleep(5)
+  countdown(time)
+end
